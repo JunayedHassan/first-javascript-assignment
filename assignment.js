@@ -2,10 +2,10 @@
 function feetToMile(feet){
     if(feet>0){
         mile = 0.000189394 * feet;  
-        console.log(feet + ` feet = ` + mile.toFixed(2) + ` miles`)
+        console.log(feet + ` feet = ` + mile.toFixed(2) + ` miles`);
     }
     else{
-        console.log(`Please enter a positive number greater than zero.`)
+        console.log(`Please enter a positive number greater than zero.`);
     }
 }
 // var result = feetToMile(1000000);
@@ -22,7 +22,7 @@ function woodCalculator(chair, table, bed){
         console.log(`For `+ chair +` chair, `+ table+ ` table & `+ bed+ ` bed, you will need `+ totalWoods+` cubic woods.`);
     }
     else {
-        console.log(`Please enter a positive number which is greater than zero.`)
+        console.log(`Please enter a positive number which is greater than zero.`);
     }
 }
 // var result = woodCalculator(1, 2, 3);
@@ -33,7 +33,7 @@ function woodCalculator(chair, table, bed){
 // brickCalculator
 function brickCalculator(totalFloors){
     if(totalFloors<=0){
-        console.log(`Please provide a positive number greater than zero.`)
+        console.log(`Please provide a positive number greater than zero.`);
     }
     else {
         if(totalFloors>20){
@@ -59,7 +59,7 @@ function tinyFriend(friends){
     if(friends != null){
     var smallestName = friends[0];
         for(var i=0; i<friends.length; i++){
-        var element = friends[i]
+        var element = friends[i];
             if(element.length < smallestName.length){
                 smallestName = element;
             }
@@ -67,7 +67,7 @@ function tinyFriend(friends){
         console.log(smallestName + ` has the smallest name.`);
         }
         else{
-        console.log(`Please provide your friends name.`)
+        console.log(`Please provide your friends name.`);
         }
     }
 //  var result = tinyFriend(['rustbucket', 'monika', 'kaneki', 'ryuk', 'yagami', 'lawleit', 'gian', 'mishio'])
